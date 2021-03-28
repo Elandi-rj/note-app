@@ -21,7 +21,7 @@ function Edit() {
     }
     function onSubmit() {
         changeRow();
-        history.push('/');
+        history.push('/note-app/');
     }
 
     function changeRow() {

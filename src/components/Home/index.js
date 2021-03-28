@@ -4,8 +4,10 @@ import Row from '../Row/Row';
 import { setItem, getItem } from '../../services/storage';
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
+import { useHistory } from 'react-router-dom';
 
 function Home() {
+    const history = useHistory();
     const [rowdata, setRowdata] = useState([]);
 
     useEffect(() => {
@@ -39,11 +41,14 @@ function Home() {
         return items;
     }
 
+    function onSubmit() {
+        console.log("hi")
+        history.push('/note-app/add');
+    }
     return (
         <div className="home-container">
-            <AwesomeButton className="aws-btn" href="/Add" ripple="true">
-                Add a note
-            </AwesomeButton>
+
+            <AwesomeButton className="awsbtn" onPress={onSubmit}>Add a note</AwesomeButton>
 
             <h1>Home Page</h1>
             {renderRows()}

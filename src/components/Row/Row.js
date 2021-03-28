@@ -6,7 +6,7 @@ function Row(props) {
     const history = useHistory();
 
     function onNoteClick() {
-        history.push('/edit/' + props.index);
+        history.push('/note-app/edit/' + props.index);
     }
 
     return (

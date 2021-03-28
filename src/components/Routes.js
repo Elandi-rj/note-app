@@ -6,13 +6,13 @@ import Edit from './Row/Edit';
 function Routes() {
     return (
         <Switch>
-            <Route path="/" exact>
+            <Route exact path="/note-app/">
                 <Home />
             </Route>
-            <Route path="/Add" exact>
+            <Route path="/note-app/Add">
                 <Add />
             </Route>
-            <Route path="/Edit/:index" exact>
+            <Route path="/note-app/Edit/:index">
                 <Edit />
             </Route>
         </Switch>

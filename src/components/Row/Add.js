@@ -30,7 +30,7 @@ function Add() {
         removeSessionItem('title');
         removeSessionItem('content');
 
-        history.push('/');
+        history.push('/note-app/');
     }
 
     return (
