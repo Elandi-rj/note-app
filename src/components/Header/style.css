@@ -1,0 +1,54 @@
+.header-container{
+    background-color: #3e3e44;
+    color: white;
+    padding: 20px;
+    
+    -webkit-box-shadow: 0 20px 20px #222222;
+  -moz-box-shadow: 0 20px 20px #222222;
+  box-shadow: 00 20px 20px #222222;
+}
+
+.header-container .title{
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+    outline: none !important;
+    border-style: none;
+    background-color: transparent;
+}
+.header-container .title:active{
+    border-style: none;
+    
+}
+
+.aws-btn {
+    --button-default-height: 48px;
+    --button-default-font-size: 14px;
+    --button-default-border-radius: 6px;
+    --button-horizontal-padding: 20px;
+    --button-raise-level: 5px;
+    --button-hover-pressure: 2;
+    --transform-speed: 0.185s;
+    --button-primary-color: #475472;
+    --button-primary-color-dark: #2a3143;
+    --button-primary-color-light: #d4d9e4;
+    --button-primary-color-hover: #424e6a;
+    --button-primary-border: none;
+    --button-secondary-color: #fffc6c;
+    --button-secondary-color-dark: #b9b500;
+    --button-secondary-color-light: #6c6a00;
+    --button-secondary-color-hover: #fffb3e;
+    --button-secondary-border: none;
+    --button-anchor-color: #f3c8ad;
+    --button-anchor-color-dark: #734922;
+    --button-anchor-color-light: #4c3016;
+    --button-anchor-color-hover: #f1bfa0;
+    --button-anchor-border: 1px solid #8c633c;
+    }
+
+.titlebutton{
+    margin-left: 20px;
+    position: absolute;
+    top: 2.5em;
+} 
+
